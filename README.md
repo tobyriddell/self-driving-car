@@ -9,3 +9,4 @@ The goal was to lay the groundwork for grade 7/8 students to re-implement a self
 are in separate files demonstrating the capturing of images, the processing of images, training the neural network and then using
 the trained network to drive the car.
 
+![Alt text](/sample_images/foo.omg?raw=true "Raw image")
