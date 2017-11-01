@@ -1,5 +1,9 @@
 # self-driving-car
+
+## Summary
 A project for Fern School's STEM club to help students get to grips with neural networks
+
+## Introduction
 
 This project was inspired by https://medium.com/@florianherrengt/building-a-basic-self-driving-rc-car-bca6a7521753, 
 however there are some differences: I used a Raspberry Pi and a robot car chassis and all code was written in Python and executed
@@ -30,3 +34,11 @@ Video of the car in action: https://www.youtube.com/watch?v=_Bs-3v7ODe8
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_Bs-3v7ODe8" target="_blank"><img src="http://img.youtube.com/vi/_Bs-3v7ODe8/0.jpg" 
 alt="self-driving car in action" width="240" height="180" border="10" /></a>
+
+(Since the video was made the code was updated to move continuously, without needing the Return key pressed.)
+
+Next steps:
+
+* Try training the neural net with unprocessed images
+* Switch from a forward/left/right movement model to a velocity-based model. Decisions will update the target velocity rather than explicit movement steps, this should result in smoother motion and the opportunity to speed up/slow down rather than move at constant speed.
+* Implement a web server (as per the medium.com article) so that the captured/processed images may be viewed as the car is trained and drives itself.
